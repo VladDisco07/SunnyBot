@@ -1,16 +1,13 @@
 {
-  "name": "sunnybot",
-  "version": "1.0.0",
-  "description": "SunnyBot, the Discord Bot!",
-  "main": "index.js",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
-  "author": "Vlad07#5909",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.2.1",
-    "opusscript": "0.0.4",
-    "ytdl-core": "^0.18.2"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
